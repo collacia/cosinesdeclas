@@ -1,0 +1,171 @@
+<!------------------------------------------------------------------------
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+	Asignatura: Lenguaje de marcas y sistemas de gestión de la información
+	Tarea: Primer sitio web
+	UD: Unidad 2 - Desarrollo web con HTML5 y CSS3
+	Autora: Olatz Da Silva Rosales
+	Fecha: 03/12/2021 
+--------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<!--Se presentan los metadatos los cuales van a influir en los contenidos
+del body, aplicando sus propios estilos css.-->
+<head>
+	<meta charset="UTF-8">
+	<title>Reseñes</title>
+    <meta name="Lletra a lletra" content="Equí atoparaste reseñes, novedaes y muncho más sobro la lliteratura asturiana actual">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale= 1.0, minimum-scale=1.0">
+    <link rel ="stylesheet" href="../reseñas/css/reseñas.css">
+	</head>
+
+<body>
+<!--Encabezado-->
+<!--Se crea una barra horizontal de navegación en el encabezado de la página
+en la que están enlazadas las demás páginas de la web.-->
+   <header class="encabezado">
+     <a id="logo" href="../../../Index.html" target="_self"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+	 <nav class="menu">
+		<ul>
+			<li><a href="../conocenos/conocenos.html">· conócenos ·</a></li>
+			<li class="menuActivo"><a href="../reseñas/reseñas.html">· reseñes ·</a></li>
+            <li><a href="../noticias/noticies.html">· noticies ·</a></li>
+            <li><a href="../contacto/contautu.html">· contautu ·</a></li>
+		</ul>
+	 </nav>
+   </header>
+
+<!--Reseñes, cuerpo central de la página-->
+<!--El contenido del siguiente bloque se divide en tres columnas, la primera la portada de cada libro,
+la segunda información sobre el libro y una tercera un enlace a otra página más detallada.-->
+    <main>
+        <!--Título del bloque-->
+        <h1>reseñes</h1>
+        <!--Primer libro-->
+        <article>
+            <div class="columnas">
+                <!--Imagen primer libro-->
+                <img class="imagenes" src="../../img/foto1.png" alt="Foto1" title="Fallunelsistema">
+                <!--Información libro 1-->
+                <div class="texto">
+                    <p>A grandes rasgos entendemos como fracasu escolar cuando la reciella nun algama dafechu los requisitos mínimos nos estudios determinaos de cada país. 
+                        N'España abarca hasta la educación secundaria (ESO). Poro, el fracasu escolar ye consideráu un grave problema del sistema educativu.</p>
+                </div>
+                <!--Enlace a la página detallada-->
+                <div class="seguirllendo">
+                    <a href="../detallada/detallada.html" targer="_self">más...</a>
+                </div>
+            </div>
+        </article>
+        <!--Segundo libro-->
+        <article>
+            <div class="columnas">
+                <!--Portada-->
+                <img class="imagenes" src="../../img/foto2.jpg" alt="Foto2" title="Píldores gramaticales">
+                <!--Texto-->
+                <div class="texto">
+                    <p>El xéneru masculín n'asturianu, ye dixebrada al del castellán. Cuando mos referimos a un suxetu singular les pallabres finen n'-u. Y cuando esi suxetu ye plural fina n'-os.
+                        Si quixeres prauticar, ver exemplos y ampliar tos conocimientos nel tema. Namás ties que picar nel siguiente botón.</p>
+                </div>
+                <!--Enlace-->
+                <div class="seguirllendo">
+                    <a href="" targer="_self">más...</a>
+                </div>
+            </div>
+        </article>
+        <!--Tercer libro-->
+        <article>
+            <div class="columnas">
+                <!--Foto-->
+                <img class="imagenes" src="../../img/foto3.png" alt="Foto3" title="Ortografía nun minutu">
+                <!--Texto-->
+                <div class="texto">
+                    <p>L'Alfabetu asturianu al igual que la gramática tien dellos rasgos diferentes que l'alfabetu del castellán. N'esti sen, esti ye la primer publicación d'una serie delles nos que vamos amosar dalgunes esquemines sobro la ortografía asturiana. Entamando como non, col alfabetu. </p>
+                </div>
+                <!--Enlace-->
+                <div class="seguirllendo">
+                    <a href="" targer="_self">más...</a>
+                </div>
+            </div>
+        </article>
+        <!--Cuarto libro-->
+        <article>
+            <div class="columnas">
+                <!--foto-->
+                <img class="imagenes" src="../../img/foto4.png" alt="Foto4" title="Autismo">
+                <!--texto-->
+                <div class="texto">
+                    <p>L'Autismu, un trastornu col que como docentes tendremos que trabayar y na mayoría desconocemos o lu tenemos mui estigmatizáu, xeneralizáu y estereotipáu. Güei ye una bona oportunidá d'ampliar esos conocimientos y a la fin en consecuencia ameyorar nueses intervenciones educatives de la mano de la información docente y social.</p>
+                </div>
+                <!--Enlace-->
+                <div class="seguirllendo">
+                    <a href="" targer="_self">más...</a>
+                </div>
+            </div>
+        </article>
+        <!--Quinto libro-->
+        <article>
+            <div class="columnas">
+                <!--Fotos-->
+                <img class="imagenes" src="../../img/foto5.png" alt="Foto5" title="PCP">
+                <!--Texto-->
+                <div class="texto">
+                    <p>De la mano de los Programes Centraos nes Persones, podemos emplegar el Diseñu Universal d'Aprendizaxe (DUA) d'un mou afayadizu. ¿Por qué? Cenciello. Al poner en marcha esti programa, ye necesariu atender a toles caracterísitques, casuistiques y realidaes qu'arrodien a aquella persona cola que vayamos a trabayar. Realizando esti estudiu previu, conseguimos información bayurosa que posteriormente mos sofitará pa poder adautar nuesa intervención de la meyor manera.</p>
+                </div>
+                <!--Enlace-->
+                <div class="seguirllendo">
+                    <a href="" targer="_self">más...</a>
+                </div>
+            </div>
+        </article>
+        <!--Sexto libro-->
+        <article>
+            <div class="columnas">
+                <!--Foto-->
+                <img class="imagenes" src="../../img/foto6.png" alt="Foto5" title="Neñu">
+                <!--Texto-->
+                <div class="texto">
+                    <p>Tristemente entá seguimos viviendo nun mundu onde nun se respeten los drechos humanos. N'esti día, celebramos el día Universal del neñu. Pero ¿pa qué? ¿por qué esiste un día universal del neñu? ¿Qué ye lo que se quier algamar? Eso ye lo que vamos analizar más en fondura nesta publicación. Nós como axentes educadores y persones que forman parte la sociedá, siempres buscamos el bienestar xeneral y denunciamos toes aquelles actitúes, decisiones e inxusticies que nun son beneficiosos pa ninguna persona. Y sobremanera, si falamos d'infancia.</p>
+                </div>
+                <!--Enlace-->
+                <div class="seguirllendo">
+                    <a href="" targer="_self">más...</a>
+                </div>
+            </div>
+        </article>
+        <!--Séptimo libro-->
+        <article>
+            <div class="columnas">
+                <!--Foto-->
+                <img class="imagenes" src="../../img/foto7.png" alt="Foto5" title="Documentos">
+                <!--Texto-->
+                <div class="texto">
+                    <p>Atendiendo y ensin escaecer cuála ye la situación sociollingüística de la Llingua Asturiana anguaño, darréu vos amosamos los documentos institucionales y llegales más importantes que busquen sofitar al asturianu. No obstante, ¿qué ye lo que pasa cola llingua asturiana? ¿Por qué, ta viviéndose una situación tán precaria a nivel social y llingüísticu? La rempuesta nun ye cenciella, el cúmulu de munches situaciones históriques, sociales y alministratives faen qu'anguaño ésta seya la realidá que vivimos. Amás d'estudiar cuáles son los documentos institucionales esenciales pa la defensa de la Llingua Asturiana, estudiaremos ya analizaremos so implementación.</p>
+                </div>
+                <!--Enlace-->
+                <div class="seguirllendo">
+                    <a href="" targer="_self">más...</a>
+                </div>
+            </div>
+        </article>
+   </main>
+
+<!--Footer-->
+<!--Se crea una barra horizontal que muestra información adicional en el pie de la página.-->
+    <footer class="footer">
+        <a id="logo" href="../../../Index.html"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+          <div>
+          <p class="footer-titulu">Cosines de clas</p>
+          <p class="footer-testu">contautu</p>
+          <ul class="center">
+              <li class="footer-li">
+                  <p>teléfonu: 03828372943</p>
+              </li>
+              <li class="footer-li">
+                  <p>señes: Uviéu (Asturies)</p>
+              </li>
+          </ul>
+          <p class="footer-testu">creadora: Olatz Da Silva Rosales</p>
+          </div>
+     </footer>
+</body>
+</html>

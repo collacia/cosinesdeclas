@@ -1,0 +1,100 @@
+<!------------------------------------------------------------------------
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+	Asignatura: Lenguaje de marcas y sistemas de gestión de la información
+	Tarea: Primer sitio web
+	UD: Unidad 2 - Desarrollo web con HTML5 y CSS3
+	Autora: Olatz Da Silva Rosales
+	Fecha: 03/12/2021 
+--------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<!--Se presentan los metadatos los cuales van a influir en los contenidos
+del body, aplicando sus propios estilos css.-->
+<head>
+	<meta charset="UTF-8">
+	<title>Conóncenos</title>
+    <meta name="Lletra a lletra" content="Equí atoparaste reseñes, novedaes y muncho más sobro la lliteratura asturiana actual">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale= 1.0, minimum-scale=1.0">
+    <link rel ="stylesheet" href="css/conocenos.css">
+	</head>
+
+<body>
+<!--Encabezado-->
+<!--Se crea una barra horizontal de navegación en el encabezado de la página
+en la que están enlazadas las demás páginas de la web.-->
+   <header class="encabezado">
+     <a  href="../../../Index.html" target="_self"><img class="estiloimg" alt= "Logo" src="img/Logo.jpg"> </a>
+	 <nav class="menu">
+		<ul>
+			<li class="menuActivo"><a href="../conocenos/conocenos.html">· conócenos ·</a></li>
+			<li><a href="../reseñas/reseñas.html">· reseñes ·</a></li>
+            <li><a href="../noticias/noticies.html">· noticies ·</a></li>
+            <li><a href="../contacto/contautu.html">· contautu ·</a></li>
+		</ul>
+	 </nav>
+   </header>
+
+<!--Apartáu conócenos-->
+<!--Es el cuerpo de la página, en el cual la información se distribuye en tres columnas.
+Una primera con el título Conócenos, una segunda central con información más detallada y
+una tercera con una imagen.-->
+   <main class="columnas">
+       <!--Título-->
+        <div>
+            <h1>conócenos</h1>
+        </div>
+        <!--Información detallada-->
+        <div class="texto">
+            <p>Nesta páxina podrás atopar reseñes, noticies y nun futuru materiales y recursos didáuticos n'asturianu.</p>
+            <p><b>¿Cuála ye nuesa motivación?</b></p>
+            <ul class="llista">
+                <li><p>- Da-y a conocer a la xente d'anguaño sobro llibros interesantes n'asturianu</p></li>
+                <li><p>- Normalizar la llingua asturiana, presentándola nos contestos públicos</p></li>
+                <li><p>- Esfrutar la lliteratura y fomentar la llectura ente la xente mozo</p></li>
+            </ul>
+        </div>
+        <!--Imagen-->
+        <div>
+            <img src="img/conocenos1.jpg" alt="logoLibro" class="estilofoto">
+        </div>
+   </main>
+<!--Apartáu autores-->
+<!--Bloque de contenido horizontal distinto al pie de página que muestra imágenes y datos 
+sobre los autores ficticios de la página. -->
+   <main>
+       <section class="columas">
+           <div class="autores">
+               <!--Título del bloque-->
+               <div>
+                  <h1> el nuesu talentu</h1>
+               </div>
+               <!--Imagen de la persona 1 y su información-->
+               <div class="etiqueta">
+                  <img src="img/2022.jpeg" alt="Olatz" class="estilopersonafoto">
+                  <p class="alineartexto"><b>Nome: </b>Olatz<br><b>Apellíos: </b>Da Silva<br><b>Puestu trabayu: </b>Diseñadora <br> Alumna del grau superior DAM y maestra d'asturianu que quier camudar el mundu utilizando tolos sos conocimientos pa la creación, divulgación de materiales, servicios, xeres y/o dinámiques educatives pal profesoráu.</p>
+               </div>
+                
+               
+           </div>
+       </section>
+   </main>
+    <!--Footer-->
+    <!--Se crea una barra horizontal que muestra información adicional en el pie de la página.-->
+    <footer class="footer">
+        <a href="../../../Index.html"><img class="estiloimg" alt= "Logo" src="img/Logo.jpg"> </a>
+          <div>
+          <p class="footer-titulu">Cosines de clas</p>
+          <p  class="footer-testu">contautu</p>
+          <ul class="center">
+              <li class="footer-li">
+                  <p>teléfonu: 03828372943</p>
+              </li>
+              <li class="footer-li">
+                  <p>señes: Uviéu (Asturies)</p>
+              </li>
+          </ul>
+          <p class="footer-testu">creadora: Olatz Da Silva Rosales</p>
+          </div>
+    </footer>
+</body>
+</html>

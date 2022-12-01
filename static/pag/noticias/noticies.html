@@ -1,0 +1,107 @@
+<!-----------------------------------------------------------------------
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+	Asignatura: Lenguaje de marcas y sistemas de gestión de la información
+	Tarea: Primer sitio web
+	UD: Unidad 2 - Desarrollo web con HTML5 y CSS3
+	Autora: Olatz Da Silva Rosales
+	Fecha: 03/12/2021 
+--------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<!--Se presentan los metadatos los cuales van a influir en los contenidos
+del body, aplicando sus propios estilos css.-->
+<head>
+	<meta charset="UTF-8">
+	<title>Noticies</title>
+    <meta name="Lletra a lletra" content="Equí atoparaste reseñes, novedaes y muncho más sobro la lliteratura asturiana actual">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale= 1.0, minimum-scale=1.0">
+    <link rel ="stylesheet" href="../noticias/css/noticies.css">
+	</head>
+
+<body>
+<!--Encabezado-->
+<!--Se crea una barra horizontal de navegación en el encabezado de la página
+en la que están enlazadas las demás páginas de la web.-->
+   <header class="encabezado">
+     <a id="logo" href="../../../Index.html" target="_self"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+	 <nav class="menu">
+		<ul>
+			<li><a href="../conocenos/conocenos.html">· conócenos ·</a></li>
+			<li><a href="../reseñas/reseñas.html">· reseñes ·</a></li>
+            <li class="menuActivo"><a href="../noticias/noticies.html">· noticies ·</a></li>
+            <li><a href="../contacto/contautu.html">· contautu ·</a></li>
+		</ul>
+	 </nav>
+   </header>
+
+<!--Cuerpo de la página-->
+<!--Noticias relacionadas embebidas-->
+   <section class="fondo">
+        <h1>Noticies</h1>
+       <!--Primera noticia-->
+       <article class="noticia">
+            <div class="centrar">
+                <h2>El cuartu títulu de Calume</h2>
+                <p>Fecha: 30 payares, 2022</p>
+                <p>Categoría: Lliteratura Asturiana</p>
+                <p>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia impedit, possimus expedita minus officia soluta fugiat eligendi eos eveniet molestiae, a aliquam consequatur, voluptatibus id quos accusantium quae exercitationem iure.</p>
+                <a href="http://asturies.com/noticies/kim-cuenta-la-historia-damista-ente-dos-persones-mui-contraries-ente-si-apunta-antuna" target="_self">Enlace a la páxina</a>
+            </div>           
+            <object class="embed" type="text/html" data="http://asturies.com/noticies/kim-cuenta-la-historia-damista-ente-dos-persones-mui-contraries-ente-si-apunta-antuna"></object>
+            
+        </article>
+        <!--Segunda noticia-->
+        <article class="noticia">
+            <div class="centrar">
+                <h2>Asesoramientu Llingüísticu</h2>
+                <p>Fecha: 1 d'avientu, 2022</p>
+                <p>Categoría: Alministración</p>
+                <p>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, itaque similique. Non explicabo porro enim id magni error sit hic fuga quas, nulla nobis aperiam inventore quidem architecto et voluptatem.</p>
+                <a href="https://iniciativapolasturianu.org/asesoramientu-llinguisticu-y-llegal/" target="_self">Enlace a la páxina</a>
+            </div>           
+            <object class="embed" type="text/html" data="https://iniciativapolasturianu.org/asesoramientu-llinguisticu-y-llegal/"></object>
+        </article>
+         <!--Tercera noticia-->
+         <article class="noticia">
+            <div class="centrar">
+                <h2>I Congresu de Traducción Audiovisual n'asturianu</h2>
+                <p>Fecha: 29 de payares, 2022</p>
+                <p>Categoría: Congresos y formaciones</p>
+                <p>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur consequatur quas similique, sunt fugit harum alias. Nostrum ut repudiandae, atque adipisci blanditiis tempora magnam architecto vel exercitationem aliquam laudantium?</p>
+                <a href="https://www.europapress.es/asturianu/noticia-lluarca-va-acoyer-congresu-traduccion-audiovisual-nasturianu-20221129181604.html">Enlace a la páxina</a>
+            </div>           
+            <object class="embed" type="text/html" data="https://www.europapress.es/asturianu/noticia-lluarca-va-acoyer-congresu-traduccion-audiovisual-nasturianu-20221129181604.html"></object>
+        </article>
+        <!--Cuarta noticia-->
+        <article class="noticia">
+            <div class="centrar">
+                <h2>Seronda granible pa la lliteratura en llingua asturiana</h2>
+                <p>Fecha: 20 payares, 2022</p>
+                <p>Categoría: Educación</p>
+                <p>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nemo labore inventore ullam ipsum eos eaque sapiente eius, sequi itaque sed, possimus ut a delectus, quidem voluptatum quia. Odio, in!</p>
+                <a href="https://kumubox.com/problemas-alumnado-inmigrante-y-solucion/" target="_self">Enlace a la páxina</a>
+            </div>           
+            <object class="embed" type="text/html" data="https://kumubox.com/problemas-alumnado-inmigrante-y-solucion/"></object>
+        </article>
+   </section>
+
+<!--Footer-->
+<!--Se crea una barra horizontal que muestra información adicional en el pie de la página.-->
+    <footer class="footer">
+        <a id="logo" href="../../../Index.html"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+          <div>
+          <p class="footer-titulu">Lletra a Lletra</p>
+          <p class="footer-testu">contautu</p>
+          <ul class="center">
+              <li class="footer-li">
+                  <p>teléfonu: 03828372943</p>
+              </li>
+              <li class="footer-li">
+                  <p>señes: Uviéu (Asturies)</p>
+              </li>
+          </ul>
+          <p class="footer-testu">creadora: Olatz Da Silva Rosales</p>
+          </div>
+     </footer>
+</body>
+</html>

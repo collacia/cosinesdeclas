@@ -1,0 +1,203 @@
+/*Estilo general*/
+* {
+    margin: 0px;
+    padding: 0px;
+	box-sizing: border-box;
+    font-family: "Gill Sans MT", Calibri;
+}
+
+/* Encabezado */
+.encabezado {
+	display:grid;
+	grid-template-columns: 15% auto;
+	grid-template-rows: repeat (2,auto);
+	grid-gap: 10px;
+	background-color:#FABBBB ;
+}
+
+nav {
+    color:black;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a:hover{
+    background: #BEE7FF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.menuActivo {
+    background: #F7E28C;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.estiloimg {
+    padding: 10px;
+    height: 70px;    
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+	border-bottom-left-radius: 90px;
+	border-bottom-right-radius: 90px;
+    margin-left:10px;
+}
+
+/*Diseño de posición*/
+
+section {
+    margin-top: 3%;
+}
+
+h1 {
+    font-size: 25px;
+    font-variant: small-caps;
+    font-family: "Gill Sans MT", Calibri;
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	height: 30%;
+	margin: 10px;
+	padding: 0px;
+    background-color: #BEE7FF;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+ }
+
+h2 {
+    color: black;
+    font-family: "Gill Sans MT", Calibri;
+    font-size: 25px;
+    font-variant:small-caps;
+    padding: 10px;
+}
+
+.imagenes {
+    padding: 10px;
+    height: 300px;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+    margin-left:10px;
+}
+
+.texto {
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: justify;
+}
+
+.textodescripcion {
+    margin-right: 30px;
+    line-height: 25px;
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    text-align: left;
+    padding: 10px;
+}
+.columnas {
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+	grid-template-columns: 40% auto;
+	grid-template-rows: repeat (2,auto);
+    padding: 10px;
+}
+
+.cuadronav {
+    background-color: #BEE7FF;
+    text-decoration-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.estiloimgnav {
+    padding: 10px;
+    height: 200px;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+    margin-left:10px;
+}
+
+.estiloenlace{
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+/*Pie de página*/
+footer{
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+	grid-template-columns: 15% auto;
+	grid-template-rows: repeat (2,auto);
+    padding: 10px;
+    margin-top: 50px;
+    background-color:#FABBBB  ;
+}
+
+.footer-testu{
+    padding: 10px;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.footer-li{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    font-size: 20px;
+    margin: 5px;
+}
+.footer-titulu{
+    padding: 10px;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    font-size: 40px;
+}

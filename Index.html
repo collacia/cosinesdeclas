@@ -1,0 +1,193 @@
+<!------------------------------------------------------------------------
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+	Asignatura: Lenguaje de marcas y sistemas de gestión de la información
+	Tarea: Primer sitio web
+	UD: Unidad 2 - Desarrollo web con HTML5 y CSS3
+	Autora: Olatz Da Silva Rosales
+	Fecha: 02/12/2022 
+--------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<!--Se presentan los metadatos los cuales van a influir en los contenidos
+del body, aplicando sus propios estilos css.-->
+<head>
+	<meta charset="UTF-8">
+	<title>Cosines de clas</title>
+    <meta name="Cosines de clas" content="Equí atoparaste reseñes, novedaes y muncho más sobro la lliteratura asturiana actual">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale= 1.0, minimum-scale=1.0">
+    <link rel ="stylesheet" href="static/css/estilos.css">
+	<script src="https://kit.fontawesome.com/a0a196b905.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Encabezado-->
+<!--Se crea una barra horizontal de navegación en el encabezado de la página
+en la que están enlazadas las demás páginas de la web.-->
+   <header class="encabezado">
+     <a href="Index.html" target="_self"><img class="estiloimg" alt= "Logo" src="static/img/logo.jpg" > </a>
+	 <nav class="menu">
+		<ul>
+			<li><a href="static/pag/conocenos/conocenos.html" target="_self">· conócenos ·</a></li>
+			<li><a href="static/pag/reseñas/reseñas.html">· reseñes ·</a></li>
+            <li><a href="static/pag/noticias/noticies.html">· noticies ·</a></li>
+            <li><a href="static/pag/contacto/contautu.html">· contautu ·</a></li>
+		</ul>
+	 </nav>
+   </header>
+
+<!--Carrusel-->
+<!--Se genera el ítem Carrusel con el cual se permite ir cambiando de imagen mediante
+flechas de navegación incorporadas-->
+	<section>
+	  <div id="conteItemsCarrusel">
+		<!--Primera imagen-->
+		<div class="itemCarrusel" id="itemCarrusel-1">
+			<div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+				<img src="static/img/foto1.png" alt="Fallunelsistema" >
+			</div>
+			<!--Flechas de dirección con su enlace correspondiente-->
+			<div class="flechasCarrusel">
+				<a href="#itemCarrusel-4">
+					<i class="fas fa-angle-left"></i>
+				</a>
+				<a href="#itemCarrusel-2">
+					<i class="fas fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+		<!--Segunda imagen-->
+		<div class="itemCarrusel" id="itemCarrusel-2">
+			<div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+				<img src="static/img/foto2.jpg" alt="Píldoresgramaticales">
+			</div>
+			<!--Flechas de dirección con su enlace correspondiente-->
+			<div class="flechasCarrusel">
+				<a href="#itemCarrusel-1">
+					<i class="fas fa-angle-left"></i>
+				</a>
+				<a href="#itemCarrusel-3">
+					<i class="fas fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+		<!--Tercera imagen-->
+		<div class="itemCarrusel" id="itemCarrusel-3">
+			<div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+				<img src="static/img/foto3.png" alt="Ortografíanunminutu">
+			</div>
+			<!--Flechas de dirección con su enlace correspondiente-->
+			<div class="flechasCarrusel">
+				<a href="#itemCarrusel-2">
+					<i class="fas fa-angle-left"></i>
+				</a>
+				<a href="#itemCarrusel-4">
+					<i class="fas fa-angle-right"></i>
+				</a>
+				
+			</div>
+		</div>
+		<!--Cuarta imagen-->
+		<div class="itemCarrusel" id="itemCarrusel-4">
+			<div class="tarjetaCarrusel" id="tarjetaCarrusel-4">
+				<img src="static/img/foto4.png" alt="Autismo">
+			</div>
+			<!--Flechas de dirección con su enlace correspondiente-->
+			<div class="flechasCarrusel">
+				<a href="#itemCarrusel-3">
+					<i class="fas fa-angle-left"></i>
+				</a>
+				<a href="#itemCarrusel-1">
+					<i class="fas fa-angle-right"></i>
+				</a>
+				
+			</div>
+		</div>
+		</div>
+	  </div>
+	  <!--Puntos de navegación situados debajo del carrusel-->
+	  <div id="contePuntos">
+		<a href="#itemCarrusel-1"><b>·</b></a>
+		<a href="#itemCarrusel-2"><b>·</b></a>
+		<a href="#itemCarrusel-3"><b>·</b></a>
+		<a href="#itemCarrusel-4"><b>·</b></a>
+	  </div>
+	</section>
+
+<!--Cuerpo central de contenidos-->
+   <main>
+	<article class="centrar">
+        <h1>novedades</h1>
+    </article>
+	<!--Galería de imágenes con su respectiva información y enlace a reseñas-->
+    <article class="centrar">
+		<!--Primera foto-->
+        <div class="foto-columnas">
+            <img class="centrar" src="static/img/foto5.png" alt="Conoz l'alumnáu">
+            <div class="centrartexto">
+                <p>¿Qué ye'l PCP (Proyeutu Centráu na Persona)?</p>
+            </div> 
+            <div>
+                <a class="enlace" href="static/pag/reseñas/reseñas.html" target="_self">
+					<u><i class="seguirleyendo">Seguir lleendo</i></u>
+				</a>
+            </div>
+        </div>
+		<!--Segunda foto-->
+        <div class="foto-columnas">
+			<img class="centrar" src="static/img/foto6.png" alt="Día Universal del Neñu">
+            <div class="centrartexto">
+                <p>El 20 payares celébrase'l día Universal del neñu</p>
+            </div> 
+            <div>
+                <a href="static/pag/reseñas/reseñas.html" target="_self">
+					<u><i class="seguirleyendo">Seguir lleendo</i></u>
+				</a>
+            </div>
+        </div>
+		<!--Tercera foto-->
+        <div class="foto-columnas">
+			<img class="centrar" src="static/img/foto7.png" alt="Documentos institucionales">
+            <div class="centrartexto">
+                <p>¿Cuáles son los documentos institucionales?</p>
+            </div> 
+            <div>
+                <a href="static/pag/reseñas/reseñas.html" target="_self">
+					<u><i class="seguirleyendo">Seguir lleendo</i></u>
+				</a>
+            </div>
+        </div>
+		<!--Cuarta foto-->
+        <div class="foto-columnas">
+			<img class="centrar" src="static/img/foto8.jpg" alt="Neuroeducación">
+            <div class="centrartexto">
+                <p>¿Qué ye la neuroeducación y qué mos aporta?</p>
+            </div> 
+            <div>
+                <a href="static/pag/reseñas/reseñas.html" target="_self">
+					<u><i class="seguirleyendo">Seguir lleendo</i></u>
+				</a>
+            </div>
+        </div>
+	</article>
+   </main>
+
+<!--Footer-->
+<!--Se crea una barra horizontal que muestra información adicional en el pie de la página.-->
+   <footer class="footer">
+      <a href="Index.html"><img class="estiloimg" alt= "Logo" src="static/img/logo.jpg"> </a>
+        <div>
+        <p class="footer-titulu">Cosines de clas</p>
+        <p class="footer-testu">contautu</p>
+        <ul class="center">
+            <li class="footer-li">
+                <p>teléfonu: 03828372943</p>
+            </li>
+            <li class="footer-li">
+                <p>señes: Uviéu (Asturies)</p>
+            </li>
+        </ul>
+        <p class="footer-testu">creadora: Olatz Da Silva Rosales</p>
+        </div>
+   </footer>
+  </body>
+</html>

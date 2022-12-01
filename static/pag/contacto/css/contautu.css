@@ -1,0 +1,144 @@
+/*Estilo general*/
+* {
+    margin: 0px;
+    padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Encabezado */
+.encabezado {
+	display:grid;
+	grid-template-columns: 15% auto;
+	grid-template-rows: repeat (2,auto);
+	grid-gap: 10px;
+	background-color:#FABBBB ;
+    margin-bottom: 10px;
+}
+
+nav {
+    color:black;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a:hover{
+    background: #BEE7FF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.menuActivo {
+    background: #F7E28C;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.estiloimg {
+    padding: 10px;
+    height: 70px;    
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+	border-bottom-left-radius: 90px;
+	border-bottom-right-radius: 90px;
+    margin-left:10px;
+}
+
+/*Cuerpu*/
+
+.formulariu {
+    padding: 10px;
+    margin: 3% 10% 5% 30%;
+    background: #BEE7FF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+    width: 45%;
+}
+
+fieldset{
+    font-family: "Gill Sans MT", Calibri;
+    text-align: justify;
+    font-size: 15px;
+    color:black;
+    padding: 10px;
+}
+
+.separación {
+    line-height: 25px;
+    margin: 10px;
+}
+
+legend{
+    font-size: 20px;
+    font-variant: small-caps;
+    font-family: "Gill Sans MT", Calibri;
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	height: 30%;
+	margin: 10px;
+	padding: 0px;
+}
+
+/*Pie de página*/
+footer{
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+	grid-template-columns: 15% auto;
+	grid-template-rows: repeat (2,auto);
+    padding: 10px;
+    margin-top: 5%;
+    background-color:#FABBBB ;
+}
+
+.footer-testu{
+    padding: 10px;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.footer-li{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.footer-titulu{
+    padding: 10px;
+    font-family: "Gill Sans MT", Calibri;
+    font-variant: small-caps;
+    font-size: 40px;
+}

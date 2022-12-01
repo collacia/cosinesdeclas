@@ -1,0 +1,76 @@
+<!------------------------------------------------------------------------
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+	Asignatura: Lenguaje de marcas y sistemas de gestión de la información
+	Tarea: Primer sitio web
+	UD: Unidad 2 - Desarrollo web con HTML5 y CSS3
+	Autora: Olatz Da Silva Rosales
+	Fecha: 03/12/2021 
+--------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<!--Se presentan los metadatos los cuales van a influir en los contenidos
+del body, aplicando sus propios estilos css.-->
+<head>
+	<meta charset="UTF-8">
+	<title>Contautu</title>
+    <meta name="Lletra a lletra" content="Equí atoparaste reseñes, novedaes y muncho más sobro la lliteratura asturiana actual">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale= 1.0, minimum-scale=1.0">
+    <link rel ="stylesheet" href="../contacto/css/contautu.css">
+	</head>
+
+ <body>
+<!--Encabezado-->
+<!--Se crea una barra horizontal de navegación en el encabezado de la página
+en la que están enlazadas las demás páginas de la web.-->
+   <header class="encabezado">
+     <a id="logo" href="../../../Index.html" target="_self"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+	 <nav class="menu">
+		<ul>
+			<li><a href="../conocenos/conocenos.html">· conócenos ·</a></li>
+			<li><a href="../reseñas/reseñas.html">· reseñes ·</a></li>
+            <li><a href="../noticias/noticies.html">· noticies ·</a></li>
+            <li class="menuActivo"><a href="../contacto/contautu.html">· contautu ·</a></li>
+		</ul>
+	 </nav>
+   </header>
+
+<!--Cuerpo de la página, formulario-->
+    <section >
+        <form class="formulariu" action="mailto:olatzdasilvarosales@gmail.com" method="post">
+            <fieldset>
+            <!--Título del formulario-->
+                <legend><b>Contauta con nós</b></legend>
+                    <!--Elementos a rellenar-->
+                    Nome:<input class="separación" type="text" name="Nombre"><br>
+                    Apellíos:<input type="text" name="apellido"><br>
+                <!--Botones muyer-home-->
+                <input class="separación" type="radio" name="genero" value="femenino" checked>Muyer
+                <input class="separación" type="radio" name="genero" valur="masculino">Home <br>
+                <!--Apartado para escribir-->
+                <textarea  class="separación" name="mensaje" rows="15" cols="80">Escribi equi'l su comentariu</textarea><br>
+                <!--Botón de enviar-->
+                <input  class="separación" type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+<!--Footer-->
+<!--Se crea una barra horizontal que muestra información adicional en el pie de la página.-->
+    <footer class="footer">
+        <a id="logo" href="../../../Index.html"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+          <div>
+          <p class="footer-titulu">Cosines de clas</p>
+          <p class="footer-testu">contautu</p>
+          <ul class="center">
+              <li class="footer-li">
+                  <p>teléfonu: 03828372943</p>
+              </li>
+              <li class="footer-li">
+                  <p>señes: Uviéu (Asturies)</p>
+              </li>
+          </ul>
+          <p class="footer-testu">creadora: Olatz Da Silva Rosales</p>
+          </div>
+    </footer>
+   </body>
+   </html>

@@ -1,0 +1,103 @@
+<!------------------------------------------------------------------------
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+	Asignatura: Lenguaje de marcas y sistemas de gestión de la información
+	Tarea: Primer sitio web
+	UD: Unidad 2 - Desarrollo web con HTML5 y CSS3
+	Autora: Olatz Da Silva Rosales
+	Fecha: 03/12/2021 
+--------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+<!--Se presentan los metadatos los cuales van a influir en los contenidos
+del body, aplicando sus propios estilos css.-->
+<head>
+	<meta charset="UTF-8">
+	<title>Fallu nel sistema</title>
+    <meta name="Lletra a lletra" content="Equí atoparaste reseñes, novedaes y muncho más sobro la lliteratura asturiana actual">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale= 1.0, minimum-scale=1.0">
+    <link rel ="stylesheet" href="../detallada/css/detallada.css">
+	</head>
+
+<body>
+<!--Encabezado-->
+<!--Se crea una barra horizontal de navegación en el encabezado de la página
+en la que están enlazadas las demás páginas de la web.-->
+   <header class="encabezado">
+     <a id="logo" href="../../../Index.html" target="_self"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+	 <nav class="menu">
+		<ul>
+			<li><a href="../conocenos/conocenos.html">· conócenos ·</a></li>
+			<li><a  class="menuActivo" href="../reseñas/reseñas.html">· reseñes ·</a></li>
+            <li><a href="../noticias/noticies.html">· noticies ·</a></li>
+            <li><a href="../contacto/contautu.html">· contautu ·</a></li>
+		</ul>
+	 </nav>
+   </header>
+
+<!--Cuerpo de la página Información detallada libro Beatriz-->
+   <section>
+	   <!--Título del libro-->
+	   <header>
+		   <h1>Fallu nel sistema</h1>
+	   </header>
+	   <article class="columnas">
+		   <!--Imagen cabecera del libro, autor, sinópsis y opinión-->
+		   <div>
+				<div class="columnas">
+					<img class="imagenes" src="../../img/foto1.png" alt="Foto1" title="Fallu nel sistema">
+					<div>
+						<h2 class="textodescripcion">Descripción</h2>
+						<p class="textodescripcion">Beatriz ye una nena que tien movilidá reducida, pero eso nun ye torga pa xugar cola so perrina Lupi nin pa facer los llabores de casa que-y encamienten los pas mesmo qu'al so hermanu Míguel.</p>
+						<p class="textodescripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit accusamus praesentium dolor saepe eaque, odio deleniti natus voluptate deserunt, labore architecto? Dolore iste, vel repellat optio ipsa magni autem sit!</p>
+						<p class="textodescripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis adipisci aperiam asperiores tempore minus. Tempora porro recusandae expedita molestias cumque deleniti quis placeat, iure exercitationem cum maxime aliquid quaerat laboriosam!</p>
+					</div>
+				</div>
+				<div>
+				<h2>Opinión</h2>
+				<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam suscipit repellat dolores, nobis numquam sint reiciendis iste incidunt fugit deleniti sapiente quasi et. Doloribus, quo nobis sunt assumenda obcaecati tempora!</p>
+				<p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda officiis delectus rem recusandae aperiam porro unde, fugiat soluta, quos dolor facilis. Mollitia dolorem doloribus possimus magni recusandae culpa! Ab, accusantium.</p>
+				</div>
+
+			<div class="estiloenlace">
+				<!--Enlace a la página de reseñas-->
+				<a  href="../reseñas/reseñas.html"><p>Tornar a la páxina de referencies</p></a>
+			</div>
+			</div>
+		   <!--Cuadro de navegación derecha, con información de otros libros y enlace a otra página-->
+		   <aside class="cuadronav">
+		   		<h2>puede que también te presten</h2><br>
+		   		<ul>
+			   		<img src="../../img/foto2.jpeg" title="" >
+			   		<a href="../../pag/reseñas/reseñas.html" alt="">Píldores gramaticales</a>
+		   		</ul>
+				<img class="estiloimgnav" src="../../img/foto2.jpg" alt="Foto2" title="">
+				<ul>
+					<img src="../../img/foto2.jpeg" title="" >
+					<a href="../../pag/reseñas/reseñas.html" alt="">Ortografía nun minutu</a>
+				</ul>
+			 	<img class="estiloimgnav" src="../../img/foto3.png" alt="Foto3" title="">
+		   </aside>  
+	   </article>
+	  
+   </section>
+
+<!--Footer-->
+<!--Se crea una barra horizontal que muestra información adicional en el pie de la página.-->
+    <footer class="footer">
+        <a id="logo" href="../../../Index.html"><img class="estiloimg" alt= "Logo" src="../../img/logo.jpg"> </a>
+          <div>
+          <p class="footer-titulu">Cosines de clas</p>
+          <p class="footer-testu">contautu<p>
+          <ul class="center">
+              <li class="footer-li">
+                  <p>teléfonu: 03828372943</p>
+              </li>
+              <li class="footer-li">
+                  <p>señes: Uviéu (Asturies)</p>
+              </li>
+          </ul>
+          <p class="footer-testu">creadora: Olatz Da Silva Rosales</p>
+          </div>
+    </footer>
+</body>
+</html>
